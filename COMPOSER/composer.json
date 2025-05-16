@@ -1,0 +1,6 @@
+{
+    "name": "user/projeto_pdf",
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}
