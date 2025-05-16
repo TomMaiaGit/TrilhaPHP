@@ -57,10 +57,10 @@ abstract class ContaBancaria implements DadosContaBancariaInterface, OperacaoCon
         return $this->banco;
     }
     
-    public function getTitular(): string{
+    public function getNomeTitular(): string{
         return $this->nomeTitular;
     }
-    public function getAgencia(): int {
+    public function getAgencia(): string {
         return $this->agencia;
     }
     

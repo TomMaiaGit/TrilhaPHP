@@ -5,7 +5,7 @@ require __DIR__ .'/../vendor/autoload.php';
 
 use Estudo\ContasTipo\ContaCorrente;
 use Estudo\Contratos\DadosContaBancariaInterface;
-use Estudo\ContasTipo\OperacaoContaBancariaInterface;
+use Estudo\Contratos\OperacaoContaBancariaInterface;
 
 
 function executarOperacoes(OperacaoContaBancariaInterface $conta): void
@@ -31,7 +31,7 @@ function exibirDados(DadosContaBancariaInterface $conta): void
     echo "Banco: " . $conta->getBanco();
     echo PHP_EOL;
     
-    echo "Ag./Conta: " . $conta->getNumeroAgencia() . "/" . $conta->getNumeroConta();
+    echo "Ag./Conta: " . $conta->getAgencia();
     echo PHP_EOL;
 
     echo "Titular: " . $conta->getNomeTitular();
@@ -49,6 +49,9 @@ $conta = new ContaCorrente(
     0
 );
 
+
+exibirDados($conta);
+executarOperacoes($conta);
 /*
 echo $conta->obterSaldo();
 echo PHP_EOL;
