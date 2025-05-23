@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nome": "Carlos Silva",
+    "email": "carlos.silva@example.com",
+    "status": "ativo"
+  },
+  {
+    "id": 2,
+    "nome": "Mariana Souza",
+    "email": "mariana.souza@example.com",
+    "status": "inativo"
+  },
+  {
+    "id": 3,
+    "nome": "João Oliveira",
+    "email": "joao.oliveira@example.com",
+    "status": "pendente"
+  },
+  {
+    "id": 4,
+    "nome": "Fernanda Costa",
+    "email": "fernanda.costa@example.com",
+    "status": "ativo"
+  },
+  {
+    "id": 5,
+    "nome": "Ricardo Alves",
+    "email": "ricardo.alves@example.com",
+    "status": "suspenso"
+  }
+]
